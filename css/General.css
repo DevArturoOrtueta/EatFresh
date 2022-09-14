@@ -64,3 +64,37 @@ body{
 .all-text p{
     width: 80%;
 }
+
+.dis{
+    width: 100%;
+    position: relative;
+}
+
+.dis .img-dis{
+    width: 100%;
+}
+
+.dis .dis-text{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translateY(50%);
+    
+}
+
+h1 span{
+    color: #258D00;
+}
+
+footer{
+    background: #EDEDED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+footer p{
+    font-size: 16px;
+}
+
