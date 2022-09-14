@@ -1,0 +1,66 @@
+@import 'Setup.css';
+@import 'Nav.css';
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Monserrat', sans-serif;
+}
+
+.card{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.card img{
+    width: 15%;
+}
+
+.card-ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.card-section{
+    height: 50vh;
+    display: flex;
+}
+
+
+.div-producer{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.div-producer .producer-text{
+    position: relative;
+    padding: 5% 10%;
+
+    
+}
+
+.brocoli{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.text{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.text span{
+    color: #258D00;
+}
+
+.all-text p{
+    width: 80%;
+}
