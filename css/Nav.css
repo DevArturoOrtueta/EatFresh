@@ -2,7 +2,7 @@
 header{
     background: url('../resources/images/desktop/header-desktop.png') no-repeat;
     background-position: center center;
-    background-size: 100% ;
+    background-size: 100%;
     height:70vh;
     width: 100%;
     position: relative;
@@ -41,4 +41,24 @@ header div{
     color: white;
     font-weight: bold;
     filter: drop-shadow(5px 5px 10px #000);
+}
+
+@media only screen and (max-width: 428px){
+    header{
+        background: url('../resources/images/mobile/header-mobile-428.png') no-repeat;
+        height:70vh;
+    }
+        nav{
+        width: 100%;
+    }
+
+    header div{
+        font-size: 36px;
+    }
+    ul{
+        padding: 0;
+    }
+    ul li:nth-child(2){
+        font-size: 36px;
+    }
 }
